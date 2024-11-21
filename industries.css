@@ -1,0 +1,257 @@
+.industryhero{
+    text-align: center;
+    margin-top: 50px;
+}
+.industryhero .cat{
+ font-weight: 600;
+ color: var(--sdclr);
+ padding-inline: 12px;
+ border-radius: 5px;
+}
+
+.industryhero h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:var(--prclr);
+    margin-block: 25px;
+}
+.industryhero p{
+    font-size: 20px;
+    color:black;
+  opacity:0.8;
+  margin-bottom: 20px;
+}
+.industryhero .consult{
+    font-weight: 600;
+    background-color: var(--prclr);
+    padding-inline: 12px;
+    border-radius: 5px;
+    color:white;
+    margin-bottom: 50px;
+}
+.industryhero img{
+    width:100%;
+    border-radius: 10px;
+}
+.industryhero .focus{
+    width:70%;
+    margin:auto;
+    margin-top: 50px;
+}
+.industryhero .focus .fbtn{
+    font-weight: 600;
+    color: var(--sdclr);
+    padding-inline: 12px;
+    border-radius: 5px;
+    margin-bottom:15px;
+    
+}
+.industryhero .focus p{
+    font-size: 20px;
+    color:black;
+  opacity:0.8;
+  margin-bottom: 20px;
+  line-height: 35px;
+}
+
+/* LOCAL MANUFACTURING */
+.localmanufacturing{
+    margin-top:var(--sectiongap);
+
+}
+
+.localmanufactureouter{
+    display:flex;
+    gap:70px;
+}
+.localmanufactureouter .imgouter{
+    flex: 0 0 50%;
+    
+}
+.localmanufactureouter .imgouter img{
+    width:100%;
+}
+/* LOCAL MANUFACTURING */
+.localmanufacturing .content {
+    align-self: center;
+}
+.localmanufacturing .content .heading{
+    font-size: 48px;
+    color:var(--prclr);
+
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+
+}
+.localmanufacturing .content .firsttxt, .localmanufacturing .content .secondtxt{
+    font-size: 18px;
+    color:black;
+  opacity:0.8;
+  margin-bottom: 16px;
+  line-height: 22px;
+}
+
+.localmanufacturing .manufactureitservices .heading{
+    font-size: 48px;
+    color:var(--prclr);
+
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 60px;
+  width:50%;
+
+}
+.localmanufacturing .manufactureitservices .content {
+    display:flex;
+    gap:30px;
+}
+.localmanufacturing .manufactureitservices .content p{
+    font-size: 20px;
+    color:black;
+  opacity:0.8;
+  margin-bottom: 16px;
+  line-height: 35px;
+}
+
+/* IT SERVICES */
+.itservicemanufacturers{
+    margin-top: var(--sectiongap);
+}
+
+.itservicemanufacturers .servicecontent .heading{
+    font-size: 48px;
+    color:var(--prclr);
+
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  width:40%;
+}
+
+.itservicemanufacturers .iconcontentouter{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.itservicemanufacturers .iconcontentleft .iconcontent{
+    display:flex;
+    gap:10px;
+    margin-bottom: 10px;
+}
+
+.itservicemanufacturers .iconcontentmid .iconcontent{
+ display:flex;
+ gap:10px;
+ margin-bottom: 10px;
+}
+
+
+.itservicemanufacturers .icon{
+    font-size:25px;
+    color: var(--prclr);
+}
+
+.itservicemanufacturers .iconcontentouter p{
+    font-size: 20px;
+    color:black;
+  opacity:0.8;
+  margin-bottom: 20px;
+}
+
+/* CUT COST SECTION */
+
+.cutcost{
+    margin-top: var(--sectiongap);
+}
+.cutcost .content .heading{
+    font-size: 48px;
+    color:var(--prclr);
+
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+
+}
+
+.cutcost .content .midtxt{
+    font-size: 20px;
+    color:black;
+  opacity:0.8;
+  margin-bottom: 16px;
+  line-height: 35px;
+}
+
+.cutcost .cutcostouter{
+    display:flex;
+    gap:60px;
+} 
+
+.cutcost .cutcostouter .content{
+    align-self: center;
+}
+
+.cutcost .cutcostouter .imgouter{
+    flex: 0 0 55%;
+}
+
+.cutcost .cutcostouter .imgouter img{
+    width:100%;
+}
+.cutcost .content .consult{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--prclr);
+    padding-inline: 12px;
+    border-radius: 5px;
+    color:white;
+    margin-bottom: 50px;
+}
+
+/* INDUSTRY FOCUS PAGE */
+
+.industryrelated{
+
+    margin-top: var(--sectiongap);
+
+} 
+.industryrelated .content  p{
+    text-align: center;
+}.industryrelated .content  p:last-child{
+    margin-bottom: 50px;
+}
+.industryrelated  .ourstory {
+    display:grid;
+    place-items: center;
+    gap:80px;
+}
+.industryrelated  .ourstory .txtandimage{
+    display:flex;
+    align-items: center;
+    gap:50px;
+   
+}
+.industryrelated img{
+    width:400px;
+    border-radius: 10px;
+
+}
+.industryrelated h3{
+    margin-bottom:20px;
+}
+
+.industryrelated .txtandimage p{
+    margin-bottom:10px;
+}
+
+.whychooseus{
+    margin-top:var(--sectiongap);
+}
+
+.industryfocuscards .cardsouter .card{
+    padding: 80px 20px 80px 20px !important;
+
+}

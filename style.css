@@ -1,0 +1,2254 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --prclr:#0572b2;
+    --sdclr:#5e8dc2;
+    --trclr:#a0b4d7;
+    --trclr1:#d8e9f3;
+    --ltblack: #00000099;
+    --ltblack1:#8B8B8B;
+    --ltwht: #f5f5f5;
+    --fntsizel1:18px;
+    --fntsizel2:20px;
+    --fntsizel3:22px;
+    --gap:1px;
+    --sectiongap:100px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter Tight", sans-serif;
+}
+/* img{
+    width:100%;
+} */
+button{
+    border:none;
+
+    padding: 8px 60px;
+
+    border-radius: 30px;
+    /* font-size:var(--fntsizel1); */
+    letter-spacing: var(--gap);
+}
+/* .capt{
+    text-transform: capitalize !important;
+} */
+
+.capt {
+    text-transform: lowercase;
+  }
+  .capt:first-letter
+  {
+    text-transform: uppercase;
+  }
+  .capt1 {
+    text-transform: capitalize;
+  }
+.mb10{
+    margin-bottom: 10px !important;
+}
+.mt10{
+    margin-top: 10px !important; 
+}
+.m20{
+    margin-block: 30px;
+}
+.mb20{
+    margin-bottom: 20px !important;
+}
+.m50{
+    margin-top: 50px;
+
+}
+.mb30{
+    margin-bottom: 30px !important;
+}
+.mb50{
+    margin-bottom: 50px !important;
+}
+.h60w6{
+   font-size:  60px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: -1px;
+    color: var(--prclr);
+}
+.h48w6{
+    font-size:  48px;
+     font-weight: 600;
+     line-height: 1em;
+     letter-spacing: -1px;
+     color: var(--prclr);
+     margin-bottom:30px;
+ }
+.h24w6{
+    font-size:  24px !important;
+    font-weight: 600;
+    line-height: 1.3em;
+    letter-spacing: .5px;
+    color: var(--prclr);
+}
+.h20w6{
+    font-size:  20px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .5px;
+    color: var(--prclr);
+}
+.p20w4{
+    font-size:  20px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: .5px;
+    color: var(--ltblack1);
+    
+}
+.p18w4{
+    font-size:  18px;
+    line-height: 1.5em;
+    letter-spacing: .3px;
+    opacity: 0.7;
+    
+    
+}
+.p16w4{
+    font-size:  16px;
+    line-height: 1.5em;
+    letter-spacing: .3px;
+    opacity: 0.7;
+    
+    
+}
+.p10w6{
+    font-size:  10px;
+    font-weight: 600;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    
+}
+.p16w4{
+    font-size:  16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    
+}
+#cntbtn{
+    text-decoration: none;
+    color:white !important;
+
+}
+.colorwht{
+    color:var(--ltwht) !important;
+}
+.container{
+    padding-inline: 80px;
+}
+.header{
+    padding: 20px;
+    position: relative;
+}
+.header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.header .logo img{
+    width: 160px;
+}
+
+.header .navbar .list{
+    display:flex;
+    gap:30px;
+
+}
+.header .navbar ul li{
+    list-style: none;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    color:var(--prclr);
+    /* font-size: var(--fntsizel1); */
+}
+.header .navbar .closebar{
+    display:none;
+}
+.header .contactbtn{
+    border:none;
+    background-color:var(--sdclr);
+    padding: 8px 60px;
+    color:white;
+    border-radius: 30px;
+    font-size: 16px;
+    letter-spacing: var(--gap);
+    
+}
+.header .baricon{
+    display:none;
+}
+
+/* HERO SECTION */
+.hero{
+    background-color: var(--trclr);
+    height: calc(100vh - 200px);
+}
+.hero .container{
+    height:100%;
+    padding-inline:0px !important;
+}
+.heroinner{
+    width:95%;
+    background:var(--prclr);
+    height:100%;
+
+    border-bottom-right-radius:850px;
+}
+.hero .content{
+    padding: 4% 0px 0px 90px;
+}
+
+.hero .content .toptext p:first-child{
+    /* width:35%; */
+
+}
+.hero .content .toptext p:last-child{
+    /* width:60%; */
+
+}
+.hero .content .toptext P:first-child{
+    font-size: 37px;
+    font-weight: 400;
+    letter-spacing:2px;
+    color:white;
+    margin-top:10px;
+
+    
+}
+.hero .content .toptext P:last-child{
+    font-size: 47px;
+    font-weight: 800;
+    letter-spacing:2px; 
+    color:var(--trclr);
+}
+.hero .midtext{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing:1px;
+    color:white; 
+    margin:30px 0px 50px 0px;
+    line-height: 32px;
+}
+.hero button{
+    border:none;
+    background-color:var(--trclr);
+    padding: 8px 30px;
+    color:white;
+    border-radius: 30px;
+    font-size:18px;
+    letter-spacing: var(--gap);
+}
+.hero .dots{
+    display:flex;
+    justify-content: center;
+    gap:7px;
+    padding-top:20px;
+  
+}
+.hero .dots .dot:nth-child(2){
+    background-color: var(--prclr);
+}
+
+.hero .dot{
+    width: 15px;
+    height:15px;
+    background-color: var(--trclr);
+    border-radius: 50%;
+    
+}
+
+/* ABOUT SECTION */
+/* .about{
+    padding-top:var(--sectiongap);
+} */
+.about .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:100px;
+}
+.about .contentandbtn{
+    flex: 0 0 60%;
+}
+
+
+.about .textsect h2{
+  font-size: 45px;
+  font-weight: 900;
+  color:var(--prclr)
+  
+}
+.about .textsect p{
+    font-size: 21px;
+    font-weight: 400;
+    color:var(--prclr);
+    margin-block:40px;
+}
+.about button{
+    background-color: var(--prclr);
+    color:var(--trclr);
+    font-size: 16px;
+}
+.about .aboutimg img{
+    width:200px;
+}
+
+/* CHAIRMAN SECTION */
+
+.chairmanmessage{
+    padding-top:var(--sectiongap);
+}
+
+
+/* .chairmanmessage .container{
+   
+ padding:60px;
+} */
+.chairmanmessage .messagewrapper {
+    position: relative;
+    background-color:rgb(212, 221, 243);
+    /* padding:60px; */
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.chairmanmessage .messagewrapper .leftcontent{
+    width:90%;
+    background-color: var(--trclr);
+    padding:60px;
+    overflow:auto;
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius:850px;
+
+}
+.chairmanmessage .imagewrapper{
+ width:400px;
+ position:absolute;
+ right:20px;
+ top:50%;
+ transform: translateY(-50%);
+
+ 
+
+}
+.messagewrapper .imagewrapper img{
+    width:100%;
+}
+
+
+.chairmanmessage .leftcontent h2{
+    font-size: 28px;
+    font-weight: 800;
+    color:var(--prclr);
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.chairmanmessage .leftcontent p{
+    font-size: 18px;
+    font-weight: 400;
+    width:80%;
+    color:var(--prclr);
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+}
+
+/* TRANSFORMATION */
+
+.transform{
+    margin-top: var(--sectiongap);
+}
+.transform .text h2{
+    font-size: 32px;
+    font-weight: 800;
+    color:var(--prclr);
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+}
+.transform .card img{
+    width:100%;
+    height:500px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    object-fit: cover;
+    object-position: 0px 150%;
+}
+.transform .cardswrapper{
+display:grid;
+grid-template-columns: 1fr 1fr ;
+
+gap:50px;
+
+}
+.transform .card{
+    position:relative;
+
+
+}
+.transform .card .cardtxt{
+    position:absolute;
+    bottom:0;
+    padding-inline:60px;
+    padding-block: 25px;
+    background-color: var(--prclr);
+    border-radius: 60px;
+    height:190px;
+    width:100%;
+
+}
+.transform .cardtxt h2{
+    font-size: 32px;
+    font-weight: 800;
+    color:white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.transform .cardtxt p{
+    font-size: 18px;
+    font-weight: 400;
+    color:var(--trclr);
+    line-height: 25px;
+
+}
+
+/* 
+CONTACT SECTION */
+.contactsection{
+
+margin-top:60px;
+
+}
+
+.contactsection .contactwrapper{
+    padding-block:50px;
+    text-align: center;
+    background-color: var(--prclr);
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+
+}
+.contactsection .contactwrapper button{
+    margin-bottom:30px;
+    color:white;
+    
+    background-color: var(--trclr);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contactsection .contactwrapper p{
+font-size: 50px;
+font-weight: 800;
+color:white;
+letter-spacing:2px;
+}
+.contactsection .callandemailwrapper .icon img{
+    width:50px;
+}
+.contactsection .callandemailwrapper{
+    padding-top:100px;
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+}
+.contactsection .callandemailwrapper .call,.contactsection .callandemailwrapper .email{
+    display:flex;
+    align-items:center;
+    gap:30px;
+
+}
+.contactsection .callandemailwrapper .call .content{
+    font-size: 26px;
+    color:var(--prclr);
+    font-weight:800;
+}
+.contactsection .callandemailwrapper .email .content{
+    font-size: 30px;
+    color:var(--prclr);
+    font-weight:800;
+}
+
+.contactsection .callandemailwrapper .verticalline{
+    width:4px;
+    height:100%;
+    background-color: var(--prclr);
+position:absolute;
+top:50px;
+
+}
+
+/* LOCATIONS */
+.locations{
+    margin-top: var(--sectiongap);
+}
+.locations .locationinfowrapper{
+    background-color: var(--trclr) ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 40px;
+    padding: 40px 150px;
+}
+.locations .icon img{
+    width:70px;
+}
+.locations .topcontent{
+    text-align: center;
+}
+.locations .topcontent h3{
+    font-size: 42px;
+    font-weight: 800;
+    color:white;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+
+}
+.locations .midcontent{
+   text-align: center;
+}
+.locations .midcontent p{
+    color:var(--prclr);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.locations .bottomcontent{
+    color:var(--prclr);
+    display:flex;
+    justify-content: space-between;
+}
+.locations .bottomcontent h2{
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.locations .bottomcontent h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.locations .bottomcontent p{
+    font-size: 20px;
+ 
+}
+.locations .bottomcontent .phone{
+    margin-block: 20px;
+}
+.locations .bottomcontent .phone1{
+    margin-bottom: 20px;
+}
+
+
+.locations .bottomcontent button{
+    font-size: 11px;
+    font-weight: 800;
+    background-color: white;
+    color:var(--prclr);
+    padding: 8px 20px;
+}
+
+/* FOOTER SECTION */
+.footersect{
+    color:var(--prclr);
+    margin-top:var(--sectiongap);
+    margin-bottom:50px;
+    font-size: 16px;
+}
+.footersect ul li{
+    list-style: none;
+}
+.footersect .toplist{
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footersect ul li a{
+    color:var(--prclr);
+    text-decoration: none;
+}
+.footersect .horizontalline{
+    height:1px;
+    width:100%;
+    background-color:var(--prclr);
+    margin-block: 12px;
+    box-shadow: 1px 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.footersect ul{
+    display: flex;
+    gap:50px;
+}
+.footersect .address {
+  display:flex;
+  align-items: center;
+
+}
+.footersect ul,.footersect p{
+    padding-left: 30px;
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+    .transform .card img{
+  
+        height:600px;
+  
+    }
+  }
+
+
+  /* MEDIA BELOW 768PX */
+  @media only screen and (max-width: 768px) {
+    .container{
+        padding-inline:30px;
+    }
+    .header{
+        font-size: 15px;
+        position:relative;
+    }
+    .header .logo img{
+        width: 130px;
+    }
+  
+    .header .contactbtn{
+   
+        padding: 6px 30px;
+        font-size:15px;
+   
+    }
+    .header .baricon{
+        display:block;
+        font-size: 25px;
+        cursor: pointer;
+
+    }
+    .header .baricon i{
+       color: var(--prclr);
+    }
+
+    .header .navbar{
+        display:none;
+    }
+    .header .navbar {
+        background-color: var(--sdclr);
+        width:100%;
+        height:100vh;
+        position:fixed;
+        top:0;
+        left:0;
+    }
+    .header .navbar .closebar{
+        display:block;
+        color:white;
+        font-size: 30px;
+        position:absolute;
+        top:5%;
+        right:30px;
+        cursor:pointer;
+    }
+    .header .navbar .list{
+     
+        flex-direction: column;
+        
+        align-items: center;
+        gap:40px;
+     padding-block:20%;
+    }
+
+.header .navbar ul li a {
+    color:white;
+    font-size: 18px;
+}
+    /* HERO SECTION */
+
+.hero .content .toptext p:first-child{
+    width:60%;
+
+}
+.hero .content .toptext p:last-child{
+    width:100%;
+
+}
+.hero .content .toptext P:first-child{
+    font-size: 30px;
+ margin-bottom: 20px;
+
+    
+}
+.hero .content .toptext P:last-child{
+    font-size: 40px;
+    margin-block:30px;
+ 
+}
+.hero .midtext{
+    font-size: 21px;
+
+}
+.hero button{
+    margin-top:25px;
+}
+
+.hero .dots{
+    display:flex;
+    justify-content: center;
+    gap:7px;
+    padding-top:20px;
+  
+}
+.hero .dots .dot:nth-child(2){
+    background-color: var(--prclr);
+}
+
+.hero .dot{
+    width: 13px;
+    height:13px;
+    background-color: var(--trclr);
+    border-radius: 50%;
+    
+}
+
+
+/* ABOUT SECTION */
+
+
+
+.about .textsect h2{
+  font-size: 30px;
+
+  
+}
+.about .textsect p{
+    font-size: 20px;
+ 
+}
+.about button{
+
+    font-size: 15px;
+}
+.about .aboutimg img{
+    width:150px;
+}
+
+/* CHAIRMAN SECTION */
+
+.chairmanmessage{
+    padding-block:var(--sectiongap);
+}
+
+
+
+
+.chairmanmessage .messagewrapper .leftcontent{
+    width:100%;
+      overflow:visible;
+      padding:30px;
+}
+.chairmanmessage .imagewrapper{
+ width:300px;
+ left:0px;
+ top:6%;
+ transform: translateY(0%);
+
+ 
+
+}
+.messagewrapper .imagewrapper img{
+    width:100%;
+}
+
+
+.chairmanmessage .leftcontent h2{
+    font-size: 22px;
+
+
+}
+.chairmanmessage .leftcontent p{
+    font-size: 15px;
+
+    width:90%;
+
+    margin-bottom: 30px;
+    padding-top: 250px;
+  
+
+}
+
+/* TRANSFORMATION */
+
+.transform .text h2{
+    font-size: 30px;
+
+
+}
+.transform .card img{
+    width:100%;
+    height:450px;
+    border-radius: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    object-fit: cover;
+    object-position: 0px -100px;
+
+
+}
+.transform .cardswrapper{
+display:grid;
+grid-template-columns: 1fr 1fr ;
+
+gap:50px;
+
+}
+.transform .card{
+    position:relative;
+
+
+}
+.transform .card .cardtxt{
+    position:absolute;
+    bottom:0;
+    padding-left:20px;
+    padding-block: 10px;
+
+ 
+    height:220px;
+
+    text-align: center;
+
+
+}
+.transform .cardtxt h2{
+    font-size: 22px;
+
+}
+.transform .cardtxt p{
+    font-size: 17px;
+
+
+}
+
+/* 
+CONTACT SECTION */
+
+    .contactsection .contactwrapper{
+        padding-block:50px;
+      
+    
+    
+    }
+    .contactsection .contactwrapper button{
+        margin-bottom:30px;
+    
+        font-size: 16px;
+       
+    }
+    
+    .contactsection .contactwrapper p{
+    font-size: 35px;
+
+   
+    }
+    .contactsection .callandemailwrapper .icon img{
+        width:40px;
+    }
+    .contactsection .callandemailwrapper .call,.contactsection .callandemailwrapper .email{
+    
+        gap:10px;
+    
+    }
+    .contactsection .callandemailwrapper .call .content{
+        font-size: 22px;
+
+    }
+    .contactsection .callandemailwrapper .email .content{
+        font-size: 22px;
+  
+    }
+    /* LOCATIONS */
+
+.locations .locationinfowrapper{
+
+    padding: 40px 20px;
+}
+.locations .icon img{
+    width:50px;
+}
+
+.locations .topcontent h3{
+    font-size: 32px;
+
+}
+
+.locations .midcontent p{
+
+    font-size: 18px;
+
+}
+
+.locations .bottomcontent h2{
+    font-size: 30px;
+ 
+}
+.locations .bottomcontent h3{
+    font-size: 20px;
+    margin-bottom:10px;
+
+}
+.locations .bottomcontent p{
+    font-size: 18px;
+ 
+}
+
+/* FOOTER SECTION */
+.footersect{
+
+    font-size: 19px;
+}
+
+
+}
+    
+/* SOLUTION PAGES
+   */
+
+   .solutionpages{
+    border-top: 1px solid var(--sdclr);
+    padding-block:30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width:100% !important;
+ 
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: white;
+    display:none;
+    z-index:9999;
+   }
+   .solutionpages h3{
+    font-size: 22px;
+    color:var(--prclr);
+    padding-block: 20px;
+    letter-spacing: 1px;
+   }
+
+   .solutionpages .outer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .solutionpages .services li{
+    list-style: none;
+    padding-block:10px;
+   }
+   .solutionpages .services li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--sdclr);
+   }
+   .solutionpages .services li a:hover{
+    color: var(--prclr);
+    transition:  all .3s linear;
+   }
+
+   .solutionpages .businesschallenges .card{
+    padding:25px;
+    border: .5px solid var(--trclr);
+    border-radius:10px;
+    background-color: var(--sdclr);
+   }
+   .solutionpages .businesschallenges .card img{
+    width:40px;
+    height:40px;
+    margin-bottom: 5px;
+   }
+   .solutionpages .businesschallenges .card:hover{
+    border: .5px solid var(--prclr);
+    transition: all .5s linear;
+   }
+   .solutionpages .businesschallenges .cardsouter{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+     gap:5px;
+   }
+
+  
+   .solutionpages .businesschallenges a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+  
+   }
+   .solutionpages .businesschallenges a:hover{
+    color: var(--ltwht);
+    transition:  all .3s linear;
+   }
+   .solutionpages .industryfocus li{
+    list-style: none;
+    padding-block:10px;
+   }
+   .solutionpages .industryfocus li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--sdclr);
+   }
+
+   .solutionpages .industryfocus li a:hover{
+    color: var(--prclr);
+    transition:  all .3s linear;
+   }
+
+   /* SOLUTION MAIN PAGE */
+   .solution{
+    margin-top: 60px;
+   
+
+   }
+   .solution .container{
+    background-color: var(--trclr1);
+    padding-block:100px;
+    margin-inline:60px;
+    border-radius: 45px;
+    padding-inline: 20px !important;
+   }
+   .solution h1{
+    font-size: 45px;
+    color:var(--prclr);
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: auto;
+    width:100%;
+   }
+   .solution p{
+    font-size: 23px;
+    color:var(--prclr);
+    text-align: center;
+    
+    letter-spacing: .5px;
+    margin: auto;
+    margin-top: 50px;
+    width:90%;
+   }
+
+   .solution h3{
+    font-size: 30px;
+    color:var(--prclr);
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+   
+    width:90%;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+   }
+   .solutionservicessection{
+    margin-top: var(--sectiongap);
+   }
+.solutionservicessection .servicewrapper{
+    border:1px solid var(--prclr);
+    padding: 40px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+   font-size: 20px;
+   font-weight: 600;
+   text-align: center;
+   letter-spacing: .5px;
+   border-radius: 40px;
+}
+.solutionservicessection .servicewrapper .servicecard{
+    background:var(--prclr);
+    color:white;
+    padding:20px 25px;
+    border-radius: 30px;
+    font-size: 18px !important;
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+   gap:10px;
+}
+.solutionservicessection .servicewrapper .servicecard img{
+width:40px;
+height:40px;
+}
+
+.points .servicewrapper .servicecard{
+    padding:20px 0px !important;
+}
+
+.points  .servicewrapper .servicecard img
+    {
+        width:40px !important;
+        }
+
+
+/* 
+MANAGE IT SOLUTION PAGE */
+.manageithero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.manageithero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.manageithero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.manageithero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.manageithero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.manageithero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+.benifitsmanagedit{
+    margin-top: var(--sectiongap);
+}
+.benifitsmanagedit .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.benifitsmanagedit .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.benifitsmanagedit .bmanageouter .rightside img{
+    width:100%;
+}
+.benifitsmanagedit .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.benifitsmanagedit .leftside .mtext, .benifitsmanagedit .leftside .btext{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+
+}
+
+.benifitsmanagedit .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.benifitsmanagedit .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.benifitsmanagedit .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.benifitsmanagedit .leftside .manageitoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.benifitsmanagedit .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+/* ENTRUSTED RESULTS */
+.entrustedresults{
+    margin-top: var(--sectiongap);
+}
+.entrustedresults .outer{
+    display:flex;
+    gap:60px;
+}
+
+
+.entrustedresults .outer .leftside{
+    flex: 0 0 50%;
+}
+.entrustedresults .outer .leftside img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.entrustedresults .outer .rightside{
+    align-self:center;
+}
+
+
+.entrustedresults .rightside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    margin-bottom: 30px;
+
+}
+.entrustedresults .rightside .btext{
+    font-size:18px;
+  
+    color:black;
+    opacity:0.8;
+
+    letter-spacing: .3px;
+    line-height: 28px;
+
+}
+/* 
+SYSTEM INTEGRATION SOLUTION PAGE */
+.systemintegrationhero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.systemintegrationhero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.systemintegrationhero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.systemintegrationhero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.systemintegrationhero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.systemintegrationhero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+
+.establishment{
+    margin-top: var(--sectiongap);
+}
+.establishment .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.establishment .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.establishment .bmanageouter .rightside img{
+    width:100%;
+}
+.establishment .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.establishment .leftside .mtext, .establishment .leftside .btext{
+    font-size:18px;
+    color:var(--ltblack1);
+
+    margin-block:30px;
+}
+
+.establishment .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.establishment .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.establishment .leftside .card .cardheaing{
+    font-size:20px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:100% !important;
+}
+.establishment .leftside .establishmentoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.establishment .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:var(--ltblack1);
+    margin-block:30px;
+}
+
+
+/* 
+BUSINESS CONSULTATION SOLUTION PAGE */
+.businessconsultationhero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.businessconsultationhero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.businessconsultationhero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.businessconsultationhero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.businessconsultationhero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.businessconsultationhero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+
+.collaborationbusinessconsulting{
+    margin-top: var(--sectiongap);
+}
+.collaborationbusinessconsulting .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.collaborationbusinessconsulting .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.collaborationbusinessconsulting .bmanageouter .rightside img{
+    width:100%;
+}
+.collaborationbusinessconsulting .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.collaborationbusinessconsulting  .leftside .mtext, .collaborationbusinessconsulting  .leftside .btext{
+    font-size:18px;
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+.collaborationbusinessconsulting  .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.collaborationbusinessconsulting  .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.collaborationbusinessconsulting  .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.collaborationbusinessconsulting  .leftside .businessconsultationoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.collaborationbusinessconsulting  .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+.businessconsultingadvisory{
+    margin-top: var(--sectiongap);
+}
+.businessconsultingadvisory .outer{
+    display:flex;
+    gap:60px;
+}
+
+
+.businessconsultingadvisory .outer .leftside{
+    flex: 0 0 50%;
+}
+.businessconsultingadvisory .outer .leftside img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.businessconsultingadvisory .outer .rightside{
+    align-self:center;
+}
+
+
+.businessconsultingadvisory .rightside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    margin-bottom: 30px;
+
+}
+.businessconsultingadvisory .rightside .btext{
+    font-size:18px;
+  
+    color:black;
+    opacity:0.8;
+
+    letter-spacing: .3px;
+    line-height: 28px;
+
+}
+
+/* 
+INFRASTRUCTURE SOLUTION PAGE */
+.infrastructurehero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.infrastructurehero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.infrastructurehero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.infrastructurehero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.infrastructurehero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.infrastructurehero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+.nextgeneration{
+    margin-top: var(--sectiongap);
+}
+.nextgeneration .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.nextgeneration .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.nextgeneration .bmanageouter .rightside img{
+    width:100%;
+}
+.nextgeneration .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.nextgeneration .leftside .mtext, .nextgeneration .leftside .btext{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+   
+
+}
+.nextgeneration .leftside .btext{
+padding-left:50px;
+}
+.nextgeneration .leftside .btext li::marker{
+
+    color:rgba(0, 0, 0, 0.8);
+ 
+}
+.nextgeneration .leftside .mtext, .nextgeneration .leftside .btext li{
+    margin-bottom: 16px;
+
+}
+
+.nextgeneration .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.nextgeneration .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.nextgeneration .leftside .card .cardheaing{
+    font-size:17.5px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    /* width:60%; */
+}
+.nextgeneration .leftside .nextgenerationoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+}
+.nextgeneration .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+/* ENTRUSTED RESULTS */
+.infrastructureservice{
+    margin-top: var(--sectiongap);
+}
+.infrastructureservice .outer{
+    display:flex;
+    gap:60px;
+}
+
+
+.infrastructureservice .outer .leftside{
+    flex: 0 0 50%;
+}
+.infrastructureservice .outer .leftside img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.infrastructureservice .outer .rightside{
+    align-self:center;
+}
+
+
+.infrastructureservice .rightside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    margin-bottom: 30px;
+
+}
+.infrastructureservice .rightside .btext{
+    font-size:18px;
+  
+    color:black;
+    opacity:0.8;
+
+    letter-spacing: .3px;
+    line-height: 28px;
+}
+
+/* BUSINESS PROCESS PAGE */
+
+.businessprocesshero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.businessprocesshero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.businessprocesshero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.businessprocesshero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.businessprocesshero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.businessprocesshero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+.advancebusinessprocess{
+    margin-top: var(--sectiongap);
+}
+.advancebusinessprocess .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.advancebusinessprocess .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.advancebusinessprocess .bmanageouter .rightside img{
+    width:100%;
+}
+.advancebusinessprocess .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.advancebusinessprocess .leftside .mtext, .advancebusinessprocess .leftside .btext{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+   
+
+}
+.advancebusinessprocess .leftside .btext{
+padding-left:50px;
+}
+.advancebusinessprocess .leftside .btext li::marker{
+
+    color:rgba(0, 0, 0, 0.8);
+ 
+}
+/* .nextgeneration .leftside .mtext, .nextgeneration .leftside .btext li{
+    margin-bottom: 16px;
+
+} */
+
+.advancebusinessprocess .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.advancebusinessprocess .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.advancebusinessprocess .leftside .card .cardheaing{
+    font-size:22px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+}
+.advancebusinessprocess .leftside .advancebusinessprocessoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.advancebusinessprocess .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+/* BUSINESS SERVICES */
+.businessservices {
+    margin-top: var(--sectiongap);
+  
+}
+.businessservices .container{
+ background-color: #F7F7F7;
+
+}
+
+.businessservices .businessservicescardsouter{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+    padding-block:50px;
+}
+.businessservices .businessservicescard .heading{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--prclr);
+    margin-bottom: 20px;
+}
+.businessservices .businessservicescard .text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  color:black;
+  opacity: .7;
+}
+
+/* 
+CLOUD SERVICES PAGE */
+.cloudservicehero{
+    background-image: url('images/Kodek-Banner.jpg');
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.cloudservicehero .ttext{
+    font-size:14px;
+    font-weight: 500;
+    background-color: var(--prclr);
+    display:inline-block;
+    padding:5px;
+    color:white;
+    opacity:0.8;
+    border-radius:5px;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+}
+.cloudservicehero h1{
+    font-size:60px;
+    font-weight: 600;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+   
+}
+
+.cloudservicehero .btext{
+    font-size:30px;
+    font-weight: 400;
+
+display:block;
+
+    color:white;
+
+    letter-spacing: .3px;
+    margin-block: 30px;
+    width:50%;
+   
+}
+
+.cloudservicehero button{
+    padding:15px 20px;
+    border-radius:20px;
+    color:var(--prclr);
+    font-weight: 500;
+    font-size: 16px;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+.cloudservicehero button:hover{
+    opacity:1;
+    transition: all 0.3s linear ;
+}
+
+.benifitsmanagedit{
+    margin-top: var(--sectiongap);
+}
+.benifitsmanagedit .bmanageouter{
+    display:flex;
+    gap:50px;
+}
+.benifitsmanagedit .bmanageouter .rightside{
+    flex: 0 0 40%;
+
+}
+.benifitsmanagedit .bmanageouter .rightside img{
+    width:100%;
+}
+.benifitsmanagedit .leftside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:60%;
+  
+}
+.benifitsmanagedit .leftside .mtext, .benifitsmanagedit .leftside .btext{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+
+}
+
+.benifitsmanagedit .leftside .icon{
+    font-size: 30px;
+    color: var(--prclr);
+  
+}
+
+.benifitsmanagedit .leftside .card .cardtop{
+    display: flex;
+    gap:20px;
+    align-items: center;
+
+}
+.benifitsmanagedit .leftside .card .cardheaing{
+    font-size:17.5px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    width:100% !important;
+}
+.benifitsmanagedit .leftside .manageitoutercards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+}
+.benifitsmanagedit .leftside .card .cardbottom p{
+    font-size:18px;
+
+    color:black;
+    opacity:.8;
+    margin-block:30px;
+}
+
+/* ENTRUSTED RESULTS */
+.entrustedresults{
+    margin-top: var(--sectiongap);
+}
+.entrustedresults .outer{
+    display:flex;
+    gap:60px;
+}
+
+
+.entrustedresults .outer .leftside{
+    flex: 0 0 50%;
+}
+.entrustedresults .outer .leftside img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.entrustedresults .outer .rightside{
+    align-self:center;
+}
+
+
+.entrustedresults .rightside .ttext{
+    font-size:30px;
+    font-weight: 500;
+
+    color:var(--prclr);
+
+    letter-spacing: .3px;
+    margin-bottom: 30px;
+
+}
+.entrustedresults .rightside .btext{
+    font-size:18px;
+  
+    color:black;
+    opacity:0.8;
+
+    letter-spacing: .3px;
+    line-height: 28px;
+
+}
+
+
+/* COMPANY TAB DROPDOWN
+   */
+
+   .companypages{
+    border-top: 1px solid var(--sdclr);
+    padding-block:30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width:100% !important;
+ 
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color: white;
+    display:none;
+    z-index:9999;
+
+   }
+   .companypages h3{
+    font-size: 22px;
+    color:var(--prclr);
+    padding-block: 20px;
+    letter-spacing: 1px;
+   }
+
+   .companypages .outer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .companypages ul li{
+    list-style: none;
+    padding-block:10px;
+   }
+   .companypages ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--sdclr);
+   }
+   .companypages ul li a:hover{
+    color: var(--prclr);
+    transition:  all .3s linear;
+   }
+
+   
+   /* SLIDER */
+
+   .slide-container{
+    position: relative;
+    /* width: 100%;
+    height: 400px; */
+    /* border: 3px solid #ede6d6;*/
+    box-shadow: 0 0 8px 2px rgba(0,0,0,0.2); 
+}
+.slide-container .slides{
+    width: 100%;
+    height:100%;
+    position: relative;
+    overflow: hidden;
+}
+.slide-container .slides .slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.slide-container .slides .slide:not(.active){
+    top: 0;
+    left: -100%;
+}
+span.next, span.prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: var(--sdclr);
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 3px;
+    user-select: none;
+    cursor: pointer;
+    z-index: 1;
+}
+span.next{
+    right: 10px;
+}
+span.prev{
+    left: 10px;
+}
+span.next:hover, span.prev:hover{
+    background-color: #ede6d6;
+    opacity: 0.8;
+    color: var(--prclr);
+} 
+.dotsContainer{
+    position: absolute;
+    bottom: 5px;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dotsContainer .dot{
+    width: 15px;
+    height: 15px;
+    margin: 0px 2px;
+    border: 3px solid #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+.dotsContainer .active{
+    background-color: var(--prclr);
+}
+
+@keyframes next1{
+    from{
+        left: 0%
+    }
+    to{
+        left: -100%;
+    }
+}
+@keyframes next2{
+    from{
+        left: 100%
+    }
+    to{
+        left: 0%;
+    }
+}
+
+@keyframes prev1{
+    from{
+        left: 0%
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes prev2{
+    from{
+        left: -100%
+    }
+    to{
+        left: 0%;
+    }
+}
