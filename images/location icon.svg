@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.3 86.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #0071ce;
+      }
+
+      .cls-4 {
+        fill: #29789c;
+        mix-blend-mode: multiply;
+        opacity: .2;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_1-2" data-name="Layer 1">
+        <g>
+          <circle class="cls-3" cx="43.15" cy="43.15" r="43.15" transform="translate(-17.87 43.15) rotate(-45)"/>
+          <path class="cls-4" d="M43.15,0C19.32,0,0,19.32,0,43.15c0,11.65,4.64,22.2,12.14,29.97L73.11,12.14C65.35,4.64,54.8,0,43.15,0Z"/>
+          <path class="cls-1" d="M43.27,13.88c-11.29,0-20.41,9.13-20.41,20.41s9.13,25.94,17.05,36.5c1.68,2.16,4.8,2.16,6.48,0,7.92-10.57,17.05-25.46,17.05-36.5s-9.13-20.41-20.17-20.41Zm-.12,32.83c-6.66,0-12.06-5.4-12.06-12.06s5.4-12.06,12.06-12.06,12.06,5.4,12.06,12.06-5.4,12.06-12.06,12.06Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
